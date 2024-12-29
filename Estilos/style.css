@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*:root --(var cor1)#272b00;
+*/
+
+:root {
+
+    --cor1: #272b00;
+    --cor2: #54582f;
+    --cor3: #86895d;
+    --cor4: #bec092;
+    --cor5: #f8fbca;
+
+}
+
+* {
+    font-family: "Bebas Neue", serif;  
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--cor5);
+
+}
+
+header {
+    background-color: var(--cor2);
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+header > h1 {
+    
+    color: var(--cor5);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    font-size: 40px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+    padding: 5px 10px 1px 10px;
+    border-radius: 4px;
+} 
+
+nav > a:hover {
+
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+main {
+    height: 100%;
+    width: 1250px;
+    background-color: var(--cor5);
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+   
+    margin: 90px;
+    border-radius: 5px;
+    background-color: var(--cor5)
+}
+
+.tipo-fogo {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 60px 0px 0px 0px;
+    height: 50px; 
+    background-color: rgb(255, 37, 37);
+    font-size: 20px;  
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    
+}
+
+.tipo-fogo > p {
+    margin-top: 10px;
+    padding-top: 10px;
+    color: var(--cor5);
+    
+    
+}    
+
+
+.tipo-grama {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 20px;  
+    padding: 0;
+    margin: 60px 0px 0px 0px;
+    height: 50px;
+    border: none;
+    background-color: rgb(81, 207, 81)
+    
+}
+
+.tipo-grama > p {
+    margin-top: 10px;
+    color: var(--cor5);
+    padding-top: 10px;
+
+}
+
+.tipo-agua {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+    padding: 0;
+    font-size: 20px;  
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    background-color: rgb(111, 201, 231);
+    height: 50px;
+}
+
+.tipo-agua > p {
+    margin-top: 10px;
+    color: var(--cor5);
+    padding-top: 10px;  
+}
+div > h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#cartaocharmander > img {
+    padding-left: 15px;
+}
+
+#cartaobulbasaur {
+
+    background-color:  rgba(81, 207, 81, 0.103);
+    width: 200px;
+}
+
+#cartaocharmander {
+
+    background-color: rgba(255, 37, 37, 0.096);
+    width: 250px;
+}
+
+#cartaosquirtle {
+
+    background-color: rgba(111, 201, 231, 0.199);
+}
+
+
+footer {
+
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+}
+
+footer > p > a {
+    
+    text-decoration: none;
+    color: var(--cor5);
+
+}
+
+footer > p > a:hover {
+
+   text-decoration: underline;
+   color: var(--cor4);
+}
